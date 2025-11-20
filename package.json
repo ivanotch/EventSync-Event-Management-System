@@ -2,13 +2,23 @@
   "name": "event-ccs",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
   },
   "dependencies": {
+    "@heroui/button": "^2.2.27",
+    "@heroui/checkbox": "^2.3.27",
+    "@heroui/input": "^2.4.28",
+    "@heroui/link": "^2.2.23",
+    "@heroui/react": "^2.8.5",
+    "@heroui/system": "^2.4.23",
+    "@heroui/theme": "^2.4.23",
+    "framer-motion": "^12.23.24",
     "next": "16.0.3",
     "react": "19.2.0",
     "react-dom": "19.2.0"
