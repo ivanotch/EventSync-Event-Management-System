@@ -112,7 +112,7 @@ export default function EventDisplay() {
                 <div className="grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 grid gap-4">
                     {
                         cardsData.map((card, index) => (
-                            <Card isFooterBlurred className="w-full h-[300px]">
+                            <Card key={index} isFooterBlurred className="w-full h-[300px]">
                                 <CardHeader className="absolute z-10 top-1 flex-col items-start">
                                     <p className="text-tiny text-white/60 uppercase font-bold">{card.status}</p>
                                     <h4 className="text-black font-medium text-2xl">{card.title}</h4>
